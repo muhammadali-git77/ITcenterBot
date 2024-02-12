@@ -1,0 +1,1 @@
+from . import start, add,back,about_it,developer, course, SetRegister,register,addcourse,forward
