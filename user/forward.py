@@ -27,7 +27,7 @@ async def callback_edit_result(callback_query: types.CallbackQuery, state: FSMCo
     except Exception as e:
         print(f"Error while deleting file: {e}")
 
-    await bot.send_message(chat_id="-1002059254116", text=result_text)
+    await bot.send_message(chat_id="-1001755439052", text=result_text)
     
     await callback_query.message.delete()
     await callback_query.message.answer("Sizning ma'lumotlaringiz ITC Beshariq kanaligayuborildi🚀\nTez orada siz bilan bog'lanamiz!",reply_markup=buttons.MENU)
